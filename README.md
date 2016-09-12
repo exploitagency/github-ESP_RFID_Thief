@@ -1,5 +1,10 @@
 # ESP_RFID_Thief
 
+<br>
+Most up to date code available from: http://exploit.agency/sploit/ESP_RFID_Thief<br>
+Demo at: https://www.legacysecuritygroup.com/index.php/categories/9-rfid/26-adafruit-feather-huzzah-esp-12-remix-port-of-the-tastic-rfid-thief<br>
+<br>
+
 This is a port/remix of the Tastic RFID Thief to the Adafruit Feather HUZZAH, an ESP12E chip from the ESP8266 family.  It adds WiFi capability and makes the build nearly plug and play.  There is no SD card as there is a File System library FS.h being utilized and the board has an integrated battery and charging circuit along with WiFi.
 
 <b>Parts list:</b><br>
