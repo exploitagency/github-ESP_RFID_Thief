@@ -21,7 +21,7 @@ Latest ESP8266 Board Manager<br>
 
 <b>Construction:</b><br>
 Set voltage jumper on 5375 to 12V.<br>
-Optionally disable the beeper using the appropriate jumper.<br>
+Optionally disable the beeper(SW1-4).<br>
 Insert and screw down red wire from 12V Battery Pack to Positive(+) terminal on the 5375.<br>
 Insert and screw down black wire from 12V Battery Pack to Negative(-) terminal on the 5375.<br>
 Solder green wire from Data0(Data) to Pin 4 on Feather HUZZAH.<br>
