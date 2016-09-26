@@ -5,7 +5,7 @@
 // Library Documentation available at https://github.com/esp8266/Arduino/
 // Install Library via Board Manager URL for Arduino IDE http://arduino.esp8266.com/stable/package_esp8266com_index.json
 // Tastic RFID Thief Originally by Bishop Fox https://www.bishopfox.com/resources/tools/rfid-hacking/
-// Remix of Code and Port to ESP8266 by Exploit.Agency / LegacySecurityGroup - https://www.legacysecuritygroup.com/ http://www.exploit.agency/
+// Remix of Code and Port to ESP8266 by Corey Harding from LegacySecurityGroup - https://www.legacysecuritygroup.com/ http://www.exploit.agency/
 
 
 // Begin WiFi Configuration
@@ -95,7 +95,7 @@ void ISR_INT1()
 
 // Dish out Root Web Page
 void handle_root() {
-  server.send(200, "text/html", "<html><body>ESP_RFID_Thief<br>Port by Exploit.Agency<br>-----<br><a href=\"/log\">View /log.txt</a></html><br>-<br><a href=\"/wipe\">Wipe /log.txt</a><br>-<br><a href=\"/format\">Format File System</a></html>");
+  server.send(200, "text/html", "<html><body>ESP_RFID_Thief<br>A Tastic RFID Thief Port/Remix by:<br>Corey Harding from www.LegacySecurityGroup.com<br>-----<br><a href=\"/log\">View /log.txt</a></html><br>-<br><a href=\"/wipe\">Wipe /log.txt</a><br>-<br><a href=\"/format\">Format File System</a></html>");
 }
 String webString="";
 // End of Dish
@@ -268,7 +268,7 @@ void printBits()
       //f.print(" : ");
       //f.print(cardCode);
       //f.print(" : ");
-      f.print("44bit HEX = ");
+      f.print("HEX = ");
       f.print(cardChunk1, HEX);
       f.println(cardChunk2, HEX);
       f.close();
@@ -279,7 +279,7 @@ void printBits()
       //Serial.print(facilityCode, HEX);
       //Serial.print(", CC = ");
       //Serial.print(cardCode, HEX);
-      Serial.print(", 44bit HEX = ");
+      Serial.print(", HEX = ");
       Serial.print(cardChunk1, HEX);
       Serial.println(cardChunk2, HEX);
 
