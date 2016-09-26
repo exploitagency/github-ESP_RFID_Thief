@@ -1,6 +1,6 @@
 # ESP_RFID_Thief
 
-<br>
+Written by Corey Harding from http://www.LegacySecurityGroup.com<br><br>
 Most up to date code available from: http://exploit.agency/sploit/ESP_RFID_Thief<br>
 Demo at: https://www.legacysecuritygroup.com/index.php/categories/9-rfid/26-adafruit-feather-huzzah-esp-12-remix-port-of-the-tastic-rfid-thief<br>
 <br>
