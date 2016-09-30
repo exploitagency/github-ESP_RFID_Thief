@@ -6,7 +6,11 @@ Demo at: https://www.legacysecuritygroup.com/index.php/categories/9-rfid/26-adaf
 <br>
 
 This is a port/remix of the Tastic RFID Thief to the Adafruit Feather HUZZAH, an ESP12E chip from the ESP8266 family.  It adds WiFi capability and makes the build nearly plug and play.  There is no SD card as there is a File System library FS.h being utilized and the board has an integrated battery and charging circuit along with WiFi.  One of the benefits of adding WiFi is that now you can remotely view your captures from any standard browser either through the built in access point or by having the ESP_RFID_Thief connect to an existing WiFi network/WiFi-cellular hot spot.  The ESP_RFID_Thief can now play a larger role during penetration testing in a Red Team scenario.  One team member can walk around with the device capturing tags or plant the device while other team members view the capture log.  This way the captured tags can be cloned off site and used by another team member walking in or sent via a network to a tag emulator that the field team member is carrying to avoid looking suspicious by not making the field team member view the logs and manually clone/emulate the card.
-
+<br>
+<b>Software used:</b><br>
+Arduino IDE: Arduino IDE 1.6.11<br>
+Board Manager/Libraries: esp8266 by ESP8266 Community version 2.3.0<br>
+<br>
 <b>Parts list:</b><br>
 HID MaxiProx 5375(Other Weigand Output RFID Readers will work such as the Prox Pro II 5455)<br>
 Adafruit Feather HUZZAH<br>
