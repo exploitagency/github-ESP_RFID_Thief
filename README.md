@@ -1,11 +1,7 @@
 # ESP_RFID_Thief
-
-Ported/Remixed by Corey Harding from http://www.LegacySecurityGroup.com<br><br>
-Most up to date code available from: http://exploit.agency/sploit/ESP_RFID_Thief<br>
-Demo at: https://www.legacysecuritygroup.com/index.php/categories/9-rfid/26-adafruit-feather-huzzah-esp-12-remix-port-of-the-tastic-rfid-thief<br>
-<br>
-
+Port/Remix by Corey Harding from http://www.LegacySecurityGroup.com<br><br>
 This is a port/remix of the Tastic RFID Thief to the Adafruit Feather HUZZAH, an ESP12E chip from the ESP8266 family.  It adds WiFi capability and makes the build nearly plug and play.  There is no SD card as there is a File System library FS.h being utilized and the board has an integrated battery and charging circuit along with WiFi.  One of the benefits of adding WiFi is that now you can remotely view your captures from any standard browser either through the built in access point or by having the ESP_RFID_Thief connect to an existing WiFi network/WiFi-cellular hot spot.  The ESP_RFID_Thief can now play a larger role during penetration testing in a Red Team scenario.  One team member can walk around with the device capturing tags or plant the device while other team members view the capture log.  This way the captured tags can be cloned off site and used by another team member walking in or sent via a network to a tag emulator that the field team member is carrying to avoid looking suspicious by not making the field team member view the logs and manually clone/emulate the card.
+
 <br>
 <b>Software used:</b><br>
 Arduino IDE: Arduino IDE 1.6.11<br>
@@ -17,12 +13,7 @@ Adafruit Feather HUZZAH<br>
 2000mah 3.7V Adafruit LiPo Battery<br>
 8xAA Battery Holder in Series(12V)<br>
 Wire<br>
-Solder and Iron<br>
-
-<b>Software:</b><br>
-Current Version Arduino IDE<br>
-Latest ESP8266 Board Manager<br>
-
+Solder and Iron<br><br>
 <b>Construction:</b><br>
 Set voltage jumper on 5375 to 12V.<br>
 Optionally disable the beeper(SW1-4).<br>
