@@ -8,7 +8,7 @@ Arduino IDE: Arduino IDE 1.6.11<br>
 Board Manager/Libraries: esp8266 by ESP8266 Community version 2.3.0<br>
 <br>
 <b>Parts list:</b><br>
-HID MaxiProx 5375(Other Weigand Output RFID Readers will work such as the Prox Pro II 5455)<br>
+HID MaxiProx 5375<br>
 Adafruit Feather HUZZAH<br>
 2000mah 3.7V Adafruit LiPo Battery<br>
 8xAA Battery Holder in Series(12V)<br>
