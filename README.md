@@ -23,7 +23,7 @@ Solder green wire from Data0(Data) to Pin 4 on Feather HUZZAH.<br>
 Solder white wire from Data1(Clock) to Pin 5 on Feather HUZZAH.<br>
 Solder a wire from GND on the Feather HUZZAH to the GND on the 5375.(Do NOT do the same for Positive)<br>
 Attach Lipo Battery to Feather HUZZAH.<br>
-Warning: The GPIO Pins on the Feather Huzzah are not supposed to be 5v tolerant(they operate at 3.3v) but this setup has been working fine for me on a breadboard with the 5375 reader powered by 8xAA Batteries. It is recommended to use a level shifter between the Data0/Data1 lines from the 5375 and Pin 4/5 on the Feather Huzzah.<br>
+Warning: The GPIO Pins on the Feather Huzzah are not supposed to be 5v tolerant(they operate at 3.3v) but this setup has been working fine for me on a breadboard with the 5375 reader powered by 8xAA Batteries. It is recommended to use a level shifter between the Data0/Data1 lines coming from the 5375 and Pins 4/5 on the Feather Huzzah.<br>
 
 <b>Program:</b><br>
 Optionally set the ssid and password of the access point being created by the Feather HUZZAH in the sketch source code(.ino file) as well as some other variables such as hidden ssid or IP address.  Or you can even edit the source to make it connect directly to your own network as a client vs being set up as an access point.  I made it easy to set in the source.<br>
